@@ -1,0 +1,27 @@
+{
+  "name": "ckeditor5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node service.js",
+    "appClient": "cd client && npm start",
+    "ckeditor": "concurrently \" node service.js\" \" npm run appClient\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "concurrently": "^7.0.0",
+    "connect-multiparty": "^2.2.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "html-react-parser": "^1.4.8",
+    "mongoose": "^6.2.2",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  }
+}
